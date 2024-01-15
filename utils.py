@@ -59,7 +59,7 @@ def landmarks_to_input_data(landmarks):
   input_data = {}
 
   for i in range(len(landmarks)):
-    input_data[LANDMARKS_NAMES[i]] = np.array([landmarks[i]])
+    input_data[LANDMARKS_NAMES[i]] = np.array([landmarks[i]], dtype=np.float32)
 
   return input_data
 
