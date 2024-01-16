@@ -1,0 +1,6 @@
+client.py
+venv
+__pycache__
+.tool-versions
+docker-compose.yml
+Dockerfile
